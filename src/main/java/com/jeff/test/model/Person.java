@@ -15,6 +15,8 @@ public class Person {
     @Column(name = "age")
     private int age;
 
+    public Person() {}
+
     public Person(String fullName, int age) {
         this.fullName = fullName;
         this.age = age;
